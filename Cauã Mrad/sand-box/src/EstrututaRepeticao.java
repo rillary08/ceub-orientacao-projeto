@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class EstrututaRepeticao {
 
     public static void main(String[] args) {
@@ -16,6 +18,11 @@ public class EstrututaRepeticao {
         while (contador < 5) {
             System.out.println("contador: "+contador);
             contador++;
+        }
+
+        List<String> nomes = List.of("Cauã", "fulano" , "xavier");
+        for(String nome : nomes) {
+            System.out.println(nome);
         }
 
 
