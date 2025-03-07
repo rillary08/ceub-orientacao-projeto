@@ -22,7 +22,8 @@ public class Java8Features {
                 .collect(Collectors.toList());
 
         LocalDate hoje = LocalDate.now();
-        System.out.println("Data de hoje: " + hoje.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
+        System.out.println("Data de hoje: " + hoje.format(
+                DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 
     }
 
