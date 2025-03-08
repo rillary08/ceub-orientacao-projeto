@@ -4,7 +4,6 @@ import java.util.Collections; // Pra leitura de dados
 import java.util.Scanner;
 
 public class ProgramaListaNomes {
-
     public static void main(String[] args) {
         
         //Criação do Scanner para leitura de dados
