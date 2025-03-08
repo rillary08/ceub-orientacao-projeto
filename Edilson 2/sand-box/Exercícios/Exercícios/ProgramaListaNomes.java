@@ -20,7 +20,7 @@ public class ProgramaListaNomes {
         scanner.nextLine();
 
         //Pra ler o numero de nomes que o usuario vai inserir
-             for (int i = 0; i < quantidade; i++) {
+                for (int i = 0; i < quantidade; i++) {
             System.out.println("Digite o nome #" + (i +1) + ": ");
             String nome = scanner.nextLine(); // le o nome como uma string
             nomes.add(nome); // adiciona o nome a lista
