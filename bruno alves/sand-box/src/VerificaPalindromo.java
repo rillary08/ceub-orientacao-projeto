@@ -11,8 +11,8 @@ public class VerificaPalindromo {
             String palavra = scanner.nextLine();
         
          if (verificapalindromo(palavra)) { //verifica se a palavra é um palíndromo e imprime a mensagem correspondente
-            System.out.println("É palíndromo");
-         } else {
+            System.out.println("É palíndromo");}
+         else {
             System.out.println("Não é palíndromo");}
         
          scanner.close(); //fecha o scanner
