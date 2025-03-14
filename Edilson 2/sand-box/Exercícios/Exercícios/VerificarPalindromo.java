@@ -17,7 +17,7 @@ public class VerificarPalindromo {
             }
             inicio++;
             fim--;
-        }
+        } 
 
         return true; // se retornar sem encontrar diferenças, retornar veradadeiro
     } 
@@ -37,7 +37,7 @@ public class VerificarPalindromo {
             System.out.println(palavra + " é um Palindromo.");
         } else {
             System.out.println(palavra + " Não é um Palindromo");
-        }
+        } 
     }
 
     }
