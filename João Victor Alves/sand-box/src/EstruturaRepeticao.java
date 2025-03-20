@@ -17,10 +17,9 @@ public class EstruturaRepeticao {
             contador++;
         }
 
-        List<String> nomes = List.of("Fernando", "Fulano", "João");
-        for (String nome : nomes) {
-            System.out.println(nome);
+        List<String> nomes = List.of("fernando", "Fulano", "João");
+        for(String n : nomes) {
+            System.out.println(n);
         }
-
     }
 }
