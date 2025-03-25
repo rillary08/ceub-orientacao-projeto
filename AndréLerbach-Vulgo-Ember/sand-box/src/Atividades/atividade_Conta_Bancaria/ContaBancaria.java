@@ -2,12 +2,13 @@ package atividade_Conta_Bancaria;
 
 public class ContaBancaria {
     Double dinheiro;
+    Double saldo;
     String nome;
     String cpf;
 
 
     public ContaBancaria(String nome, String cpf){
-        this.dinheiro = 500.00;
+        this.saldo = 500.00;
         this.nome = nome;
         this.cpf = cpf;
     }
@@ -16,21 +17,21 @@ public class ContaBancaria {
         System.out.println("\n Saldo na conta:"+dinheiro);
     }
 
-    public void depositar(){
-        System.out.println(dinheiro+100);
+    public void depositar(Double dinheiro){
+        System.out.println(saldo+dinheiro);
     }
 
-    public void sacar(){
-        if (dinheiro <= 0){
+    public void sacar(Double dinheiro){
+        if (saldo-dinheiro <= 0){
             System.out.println("Saldo indisponível para saque");
         } else {
-            System.out.println(dinheiro-100);
+            System.out.println(saldo-dinheiro);
         }
     }
 
     public void info() {
         System.out.println("\n Nome: "+nome+
                             "\n CPF: "+cpf+
-                            "\n Saldo: "+dinheiro);
+                            "\n Saldo: "+saldo);
     }
 }

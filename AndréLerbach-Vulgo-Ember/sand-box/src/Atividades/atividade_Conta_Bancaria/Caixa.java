@@ -5,8 +5,9 @@ public class Caixa {
         ContaBancaria jarvis = new ContaBancaria("Jarvis", "123.456.789-01" );
 
         jarvis.info();
-        jarvis.sacar();
-        jarvis.depositar();
+        jarvis.depositar(200.0);
+        jarvis.sacar(900.0);
+
     }
 
 }
