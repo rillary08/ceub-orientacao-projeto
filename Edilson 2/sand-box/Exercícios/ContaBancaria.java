@@ -42,7 +42,7 @@ public class Main {
         
         conta1.exibirInformacoes();
         conta1.depositar(500);
-        conta1.sacar(300);
+        conta1.sacar(400);
         conta1.exibirInformacoes();
 
         conta2.exibirInformacoes();
