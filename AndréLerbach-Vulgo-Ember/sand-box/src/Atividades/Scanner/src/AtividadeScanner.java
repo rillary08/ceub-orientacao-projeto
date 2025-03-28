@@ -1,5 +1,5 @@
 
-package Atividades.Atividade_Scanner;
+package Atividades.Scanner.src;
 import java.util.Scanner;
 
 public class AtividadeScanner {

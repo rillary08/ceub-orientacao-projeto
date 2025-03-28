@@ -1,6 +1,6 @@
 
 // ARQUIVO CHAMANDO ContaBancaria
-package atividade_Conta_Bancaria;
+package Atividades.ContaBancaria.src;
 
 
     // Declarando as variáveis na classe da Conta Bancária
@@ -21,6 +21,8 @@ public class ContaBancaria {
 
     // Método que adiciona dinheiro na conta
     public void depositar(Double dinheiro){
+        System.out.println("Depositando: "+dinheiro);
+        System.out.print("Saldo Atual: ");
         System.out.println(saldo+dinheiro);
     }
 

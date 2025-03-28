@@ -1,5 +1,5 @@
 // Arquivo Caixa, onde vamos instanciar a classe ContaBancaria
-package atividade_Conta_Bancaria;
+package Atividades.ContaBancaria.src;
 
 public class Caixa {
     public static void main(String[] args) {
