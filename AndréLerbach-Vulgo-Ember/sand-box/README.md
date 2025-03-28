@@ -2,10 +2,10 @@
 
 > siga as pastas:
 - src;
-- atividades;
+- Atividades;
 
 > Feito isso, você encontrará as pastas dos exercícios resolvidos da aula (por mim, pode ter erros).
-> Dentro de cada pasta atividade, terá um arquivo de texto (sufixo .txt), siga o caminho de exemplo:
+> Dentro de cada pasta, terá um arquivo de texto (sufixo .txt), siga o caminho de exemplo:
 - ContaBancaria;
 - src;
 - Explicacao.txt;
