@@ -1,18 +1,19 @@
-## Getting Started
+# Como Achar Explicações:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> siga as pastas:
+- src;
+- atividades;
 
-## Folder Structure
+> Feito isso, você encontrará as pastas dos exercícios resolvidos da aula (por mim, pode ter erros)
+> Dentro de cada pasta atividade, terá um arquivo de texto (sufixo .txt), siga o caminho de exemplo:
+- ContaBancaria;
+- src;
+- Explicacao.txt;
 
-The workspace contains two folders by default, where:
+> Todo exercício vai receber um arquivo de explicação, abordando cada linha de código;
+> Espero ajudar a todos da turma, bons estudos!
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Em Caso de Dúvidas:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> Favor enfiar as dúvidas para o email: andre.lerbach@sempreceub.com
+> Fale acerta da sua dúvida e, caso possível, tire uma print mostrando em qual parte está com dúvidas

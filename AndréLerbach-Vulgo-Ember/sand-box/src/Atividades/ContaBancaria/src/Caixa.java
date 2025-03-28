@@ -1,4 +1,3 @@
-// Arquivo Caixa, onde vamos instanciar a classe ContaBancaria
 package Atividades.ContaBancaria.src;
 
 public class Caixa {
