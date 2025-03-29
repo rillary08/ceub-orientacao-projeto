@@ -18,7 +18,8 @@ No código, ele deve iniciar com ```package Atividades.ContaBancaria.src```. O p
 - .ContaBancaria é o nome da classe principal;
 
 Depois disso, o próprio arquivo já vem com a declaração da classe:
-"public class ContaBancaria";
+
+    public class ContaBancaria;
 
 ### Explicando:
 
