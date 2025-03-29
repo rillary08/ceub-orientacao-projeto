@@ -1,8 +1,7 @@
 # Como Achar Explicações:
 
 siga as pastas:
-- src;
-- Atividades;
+- src > Atividades;
 
 ## Lendo pelos arquivos .md ```RECOMENDO```
 Na pasta da atividade (ContaBancária, por exemplo), você vai encontrar os arquivos PrimeiraParte.md e Segunda.md;
@@ -14,15 +13,11 @@ Caso encontrem algo como "explicação na linha x" nos arquivos .md, relevem, pr
 ### Acessando os arquivos .md
 Siga o caminho de exemplo abaixo:
 
-- ContaBancaria;
-- src;
-- PrimeiraParte.md ou SegundaParte.md
+- ContaBancaria > src > PrimeiraParte.md ou SegundaParte.md
 
 ## Lendo pelos arquivos .txt
 Dentro de cada pasta, terá um arquivo de texto (sufixo .txt), siga o caminho de exemplo:
-- ContaBancaria;
-- src;
-- Explicacao.txt;
+- ContaBancaria > src > Explicacao.txt;
 
 Todo exercício vai receber um arquivo de explicação, abordando cada linha de código.
 
