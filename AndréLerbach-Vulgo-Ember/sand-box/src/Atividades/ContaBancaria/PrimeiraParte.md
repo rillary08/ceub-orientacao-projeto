@@ -7,7 +7,7 @@ Ou seja, seu objeto (normalmente o objeto principal, ou a super classe, que voc�
 Sempre será o primeiro arquivo que você deve criar.
 
 ## Estrutura Inicial
-No código, ele deve iniciar com "package Atividades.ContaBancaria.src". O package vai indicar em qual pasta e projeto ele pertence...
+No código, ele deve iniciar com ```package Atividades.ContaBancaria.src```. O package vai indicar em qual pasta e projeto ele pertence...
 
 ### Note o seguinte:
 
