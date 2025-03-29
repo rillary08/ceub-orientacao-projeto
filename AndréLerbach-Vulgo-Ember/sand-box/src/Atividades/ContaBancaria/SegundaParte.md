@@ -8,12 +8,12 @@ sempre procure pela linha de código:
         public static void main(String[] args){}
 
 ### Explicação:
-        - public é o encapsulamento
+- public é o encapsulamento.
 
-        - static indicar que uma variável, método ou bloco pertence à classe (nesse caso a classe principal), e não a instâncias específicas dessa classe // Difícil de entender, né? Não precisa entender isso por enquanto;
+- static indicar que uma variável, método ou bloco pertence à classe (nesse caso a classe principal), e não a instâncias específicas dessa classe // Difícil de entender, né? Não precisa entender isso por enquanto.
 
-        - main é o nome do método que a JVM (Java Virtual Machine) procura como ponto de entrada para a execução do programa;
-
+- main é o nome do método que a JVM (Java Virtual Machine) procura como ponto de entrada para a execução do programa.
+<hr>
 Observações: JVM (Java Virtual Machine) é uma máquina virtual, de forma burramente resumida, é um simulador de uma máquina física,
         mas como um software, sem depender de hadware.
 
@@ -30,9 +30,11 @@ O java foi lançado com a JVM, para que, quando um código fosse feito em Sistem
 
 ### Explicação:
 
-        - ContaBancaria indica a classe que será instanciada;
-        - javris indica o nome que o objeto irá receber (todo método precisará desse nome antes de ser "chamado");
-        - = new ContaBancaria(atributos) é a instanciação da classe, nesse caso, o objeto.
+- ContaBancaria indica a classe que será instanciada;
+
+- javris indica o nome que o objeto irá receber (todo método precisará desse nome antes de ser "chamado");
+
+- = new ContaBancaria(atributos) é a instanciação da classe, nesse caso, o objeto.
 
 Acredito que nessa altura, você já deve estar mais familiarizado em como a POO funciona, caso não, relaxe... Existem cursos na Udemy, todo mês a Udemy faz um descondo, em que todos os cursos ficam por quase 40 reais, então aproveitem para estudar a programação estruturada pela Udemy (EM JAVA, PELO AMOR DE DEUS).
 
@@ -41,22 +43,24 @@ Acredito que nessa altura, você já deve estar mais familiarizado em como a POO
 
 ### Explicação:
 
-        - javis é o nome do objeto que queremos acessar;
-        - .info() é o método que iremos executar;
+- javis é o nome do objeto que queremos acessar;
+
+- .info() é o método que iremos executar;
 
 ### retorno:
 
-        Nome: Jarvis
-        CPF: 123.456.789-01
-        Saldo: 500.0
+    Nome: Jarvis
+    CPF: 123.456.789-01
+    Saldo: 500.0
 
 ## Método DEPOSITAR
     jarvis.depositar(200.0);
 
 Explicação:
 
-        - javis é o nome do objeto;
-        - .depositar(200.0) é o método a ser executado, lembrando que nessa parte precisamos inserir o arugmento (que é o valor a ser adicionado na variável saldo)
+- javis é o nome do objeto;
+
+- .depositar(200.0) é o método a ser executado, lembrando que nessa parte precisamos inserir o arugmento (que é o valor a ser adicionado na variável saldo).
 ### retorno:
 
     Depositando: 200.0
@@ -67,13 +71,13 @@ Explicação:
 
 ### Explicação:
 
-        - javis é... Você já sabe;
-        - .sacar(900.0) é... Você também já sabe...
-        - MAS, nesse caso, lembra que no método sacar(Double dinheiro), nós fizemos uma condicional? Então, ela vai atuar aqui!
+- javis é o nome do objeto;
 
-        Quando o método for chamado com o valor acima da valor da variável saldo, como 900.0 é um valor acima de 700 (alteração feita no método depositar [explicação na linha 174 até 182]), ele vai retornar a condição que fizemos, nesse caso...
+- .sacar(900.0) é... Você também já sabe... MAS, nesse caso, lembra que no método sacar(Double dinheiro), nós fizemos uma condicional? Então, ela vai atuar aqui!
 
-### retorno:
+    - Quando o método for chamado com o valor acima da valor da variável saldo, como 900.0 é um valor acima de 700 (alteração feita no método depositar [explicação na linha 174 até 182]), ele vai retornar a condição que fizemos, nesse caso...
+
+### Retorno:
 
     Saldo indisponível para saque
 
@@ -88,3 +92,22 @@ Caso o método ```jarvis.sacar();``` utilizasse como argumento um valor menor de
 
 > Espero que o exercício tenha ficado mais fácil de entender
 > <br>Bons estudos!
+
+                          ####
+                        ######
+                      ########
+                    ##########
+                    ##########
+                  ############
+                ##############
+                ############################
+    ########    ############################
+    ########    ############################
+    ########    ############################
+    ########    ############################
+    ########    ############################
+    ########    ##########################
+    ########    ########################
+    ########    ########################
+    ########    ######################
+    ########    ######################
