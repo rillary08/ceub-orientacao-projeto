@@ -34,7 +34,15 @@ O java foi criado para que um código pudesse ser executado em qualquer máquina
 
 - ```javris``` indica o nome que o objeto irá receber (todo método precisará desse nome antes de ser "chamado");
 
-- ```= new ContaBancaria(atributos)``` é a instanciação da classe, nesse caso, os atributos do nosso objeto.
+- ```= new ContaBancaria(atributos)``` é a instanciação da classe, nesse caso, os atributos do nosso objeto
+
+> Note que os atributos foram inseridos de acordo com a declaração que fizemos NO CONSTRUTOR, repare que ```"Jarvis"``` e ```"123.456.789-01"``` da instância, seriam os valores que as variáveis ```String nome``` e ```String cpf``` que o construtor usa como argumento? Então, o construtor existe exatamente para fazer esse tipo de coisa.
+
+    public ContaBancaria(String nome, String cpf){
+        this.saldo = 500.00;
+        this.nome = nome;
+        this.cpf = cpf;
+    }
 
 Acredito que nessa altura, você já deve estar mais familiarizado em como a POO funciona, caso não, relaxe... Todo mês a Udemy faz um descondo, em que todos os cursos ficam por quase 40 reais, então aproveitem para estudar a programação estruturada pela Udemy (EM JAVA, PELO AMOR DE DEUS), além de barato, esses cursos também dão certificados.
 
