@@ -8,7 +8,7 @@ Na pasta da atividade (ContaBancária, por exemplo), você vai encontrar os arqu
 
 Seguirei o padrão pelos nomes dos arquivos a serem lidos, então, para facilitar o entendimento, tentem seguir o nome deles. O título (primeira linha de texto) abordará o assunto
 
-Caso encontrem algo como "explicação na linha x" nos arquivos .md, relevem, provavelmente esqueci de remover quando fiz o arquivo .mc (é mais fácil fazer o .txt primeiro)
+Caso encontrem algo como "explicação na linha x" nos arquivos .md, relevem, provavelmente esqueci de remover quando fiz o arquivo .md (é mais fácil fazer o .txt primeiro)
 
 ### Acessando os arquivos .md
 Siga o caminho de exemplo abaixo:
