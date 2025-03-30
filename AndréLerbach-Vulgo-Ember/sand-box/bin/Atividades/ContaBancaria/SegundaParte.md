@@ -1,51 +1,51 @@
 # CLASSE PRINCIPAL
 
 ## Início
-Como o nosso professor não explicou isso (até o momento desse arquivo...),
-para você conseguir diferenciar uma classe objeto de uma classe principal (normalmente no começo, existem casos e casos),
-sempre procure pela linha de código:
+Como o nosso professor não explicou isso (até o momento desse arquivo...), para você conseguir diferenciar uma classe objeto de uma classe principal (normalmente no começo, existem casos e casos), sempre procure pela linha de código:
 
-        public static void main(String[] args){}
+
+    public static void main(String[] args){}
 
 ### Explicação:
-- public é o encapsulamento.
+- ```public``` é o encapsulamento.
 
-- static indicar que uma variável, método ou bloco pertence à classe (nesse caso a classe principal), e não a instâncias específicas dessa classe // Difícil de entender, né? Não precisa entender isso por enquanto.
+- ```static``` indica que uma variável, método ou bloco pertence à classe (nesse caso a classe principal), e não a instâncias específicas dessa classe _// Difícil de entender, né? Não precisa entender isso por enquanto._
 
-- main é o nome do método que a JVM (Java Virtual Machine) procura como ponto de entrada para a execução do programa.
+- ```main``` é o nome do método que a JVM procura como ponto de entrada para a execução do programa, ou seja, onde a JVM enxerga a parte em que os comandos serão executados, basicamente sua área de trabalho de forma enxuta.
+
 <hr>
-Observações: JVM (Java Virtual Machine) é uma máquina virtual, de forma burramente resumida, é um simulador de uma máquina física,
-        mas como um software, sem depender de hadware.
+
+> Observações:
 
 JVM - Java Virtual Machine.
 
-Antes da criação do java, era comum os devs programarem em C, mas o C precisa de uma máqui física para processar informações, e, por causa disso, o código que você fez só poderia ser utilizado naquele sistema operacional específico (já se perguntou por que existem aplicativos que só rodam em Windows, mas não rodam em MAC e Linux? É por causa disso!).
+Antes da criação do java, era comum os devs programarem em linguagens como ```C```, mas o ```C``` precisa de uma máquina física (um computador) para processar informações, e, por causa disso, o código que você fez só poderia ser utilizado naquele sistema operacional específico (já se perguntou por que existem aplicativos que só rodam em Windows, mas não rodam em MAC e Linux? É por causa disso!).
 
-O java foi lançado com a JVM, para que, quando um código fosse feito em Sistema Operacional, bastava instalar o java nos outros Sistemas, para que o mesmo código pudesse ser utilizado em outros sistemas operacionais, justamente porque o Java possui uma máquina virutal, que não depende de hardwares específicos para ser executado.
+O java foi criado para que um código pudesse ser executado em qualquer máquina que tivesse o Java instalado, por isso foi criado a JVM (uma máquina virtual, que simula um computador físico, sem depender de hardwares), para que, então, qualquer código Java escrito em qualquer sistema operacional, pudesse ser executado em qualquer outro sistema operacional (um código Java feito em um Windows, poderia ser executado em um MAC e/ou Linux, desde que tivesse a JVM instalada neles)
 
-(Ao decorrer das aulas, eu falarei mais sobre JSE, JDK e JVM);
+(Ao decorrer das aulas, eu falarei mais sobre JSE, JDK, JVM e todas as outras siglas que essa linguagem possui);
 
 ## Instanciando um Objeto
-    ContaBancaria jarvis = new ContaBancaria("Jarvis", "123.456.789-01" );
+    ContaBancaria jarvis = new ContaBancaria("Jarvis", "123.456.789-01");
 
 ### Explicação:
 
-- ContaBancaria indica a classe que será instanciada;
+- ```ContaBancaria``` indica a classe que será instanciada;
 
-- javris indica o nome que o objeto irá receber (todo método precisará desse nome antes de ser "chamado");
+- ```javris``` indica o nome que o objeto irá receber (todo método precisará desse nome antes de ser "chamado");
 
-- = new ContaBancaria(atributos) é a instanciação da classe, nesse caso, o objeto.
+- ```= new ContaBancaria(atributos)``` é a instanciação da classe, nesse caso, os atributos do nosso objeto.
 
-Acredito que nessa altura, você já deve estar mais familiarizado em como a POO funciona, caso não, relaxe... Existem cursos na Udemy, todo mês a Udemy faz um descondo, em que todos os cursos ficam por quase 40 reais, então aproveitem para estudar a programação estruturada pela Udemy (EM JAVA, PELO AMOR DE DEUS).
+Acredito que nessa altura, você já deve estar mais familiarizado em como a POO funciona, caso não, relaxe... Todo mês a Udemy faz um descondo, em que todos os cursos ficam por quase 40 reais, então aproveitem para estudar a programação estruturada pela Udemy (EM JAVA, PELO AMOR DE DEUS), além de barato, esses cursos também dão certificados.
 
 ## Método INFO
     jarvis.info();
 
 ### Explicação:
 
-- javis é o nome do objeto que queremos acessar;
+- ```javis``` é o nome do objeto que queremos acessar;
 
-- .info() é o método que iremos executar;
+- ```.info()``` é o método que iremos executar;
 
 ### retorno:
 
@@ -56,11 +56,11 @@ Acredito que nessa altura, você já deve estar mais familiarizado em como a POO
 ## Método DEPOSITAR
     jarvis.depositar(200.0);
 
-Explicação:
+### Explicação:
 
-- javis é o nome do objeto;
+- ```javis``` é o nome do objeto;
 
-- .depositar(200.0) é o método a ser executado, lembrando que nessa parte precisamos inserir o arugmento (que é o valor a ser adicionado na variável saldo).
+- ```.depositar(200.0)``` é o método a ser executado, lembrando que nessa parte precisamos inserir o argumento (que é o valor a ser adicionado na variável saldo).
 ### retorno:
 
     Depositando: 200.0
@@ -71,11 +71,11 @@ Explicação:
 
 ### Explicação:
 
-- javis é o nome do objeto;
+- ```javis``` é o nome do objeto;
 
-- .sacar(900.0) é... Você também já sabe... MAS, nesse caso, lembra que no método sacar(Double dinheiro), nós fizemos uma condicional? Então, ela vai atuar aqui!
+- ```.sacar(900.0)``` é o método a ser executado, lembrando que nessa parte precisamos inserir o argumento (que é o valor a ser subtraído na variável saldo).
 
-    - Quando o método for chamado com o valor acima da valor da variável saldo, como 900.0 é um valor acima de 700 (alteração feita no método depositar [explicação na linha 174 até 182]), ele vai retornar a condição que fizemos, nesse caso...
+    - Quando o método for chamado com o valor acima da variável saldo, no caso 900.0 é maior que 700.0 (lembrando que no método anterior adicionamos 200.0 em 500.0), ele vai retornar a condição que fizemos, para esse caso...
 
 ### Retorno:
 
@@ -88,7 +88,7 @@ Caso o método ```jarvis.sacar();``` utilizasse como argumento um valor menor de
 
 ### retorno:
 
-    200.0
+    Saque Concluído, saldo atual: 200.0
 
 > Espero que o exercício tenha ficado mais fácil de entender
 > <br>Bons estudos!
