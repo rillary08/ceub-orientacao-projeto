@@ -13,7 +13,7 @@ Caso encontrem algo como "explicação na linha x" nos arquivos .md, relevem, pr
 ### Acessando os arquivos .md
 Siga o caminho de exemplo abaixo:
 
-- ContaBancaria > src > PrimeiraParte.md ou SegundaParte.md
+- ContaBancaria > PrimeiraParte.md ou SegundaParte.md
 
 Espero ajudar a todos da turma, bons estudos!
 
