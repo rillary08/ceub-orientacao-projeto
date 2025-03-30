@@ -12,9 +12,11 @@ O código a seguir é criado automaticamente. O ```package``` vai indicar em qua
 
 - ```Package``` é o nome do comando;
 
-- ```Atividades``` é o nome da pasta principal (que está dentro de src [src siginifica source]);
+- ```Atividades``` é o nome da pasta principal;
 
 - ```.ContaBancaria``` é o nome da classe, ou seja, do arquivo que estamos editando;
+
+- ```.src```, na tradução seria "source", que é a pasta onde a classe [ContaBancaria] está contida;
 
 Depois disso, o próprio arquivo já vem com a declaração da classe:
 
