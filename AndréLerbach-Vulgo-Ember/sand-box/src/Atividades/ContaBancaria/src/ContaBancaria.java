@@ -1,5 +1,4 @@
 package Atividades.ContaBancaria.src;
-
     // Declarando as variáveis na classe da Conta Bancária
 public class ContaBancaria {
     Double dinheiro;

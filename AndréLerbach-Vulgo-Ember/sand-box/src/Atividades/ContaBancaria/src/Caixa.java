@@ -14,7 +14,6 @@ public class Caixa {
 
         // Faz o saque de 900.0 dinheiros, como o salto é mais alto do que o saldo, o comando vai devolver "Valor Inválido", ou algo assim
         jarvis.sacar(900.0);
-
     }
 
 }
