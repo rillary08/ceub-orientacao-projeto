@@ -1,4 +1,4 @@
-package Atividade;
+
 
 
 import java.util.function.DoubleUnaryOperator;
@@ -38,6 +38,11 @@ public void infoConta(){
     System.out.println("\nNome: " + nome +
                         "\nSaldo: " + saldo +
                         "\nConta: " + conta);
+}
+
+public void deposito(int i, int j) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'deposito'");
 }
 
 }
