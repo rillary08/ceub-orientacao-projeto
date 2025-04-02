@@ -1,11 +1,11 @@
-package Atividades.ContaBancaria;
+package Atividades.ContaBancaria.src;
 
+    // Declarando as variáveis na classe da Conta Bancária
 public class ContaBancaria {
     Double dinheiro;
     Double saldo;
     String nome;
     String cpf;
-
 
     // Construtor da Conta Bancária (inserindo as variáveis e fazendo o "link" das variáveis 
     // que estão entre parentesis do construtor e nas variáveis que estão declaradas na classe)
@@ -17,6 +17,8 @@ public class ContaBancaria {
 
     // Método que adiciona dinheiro na conta
     public void depositar(Double dinheiro){
+        System.out.println("Depositando: "+dinheiro);
+        System.out.print("Saldo Atual: ");
         System.out.println(saldo+dinheiro);
     }
 
@@ -25,6 +27,7 @@ public class ContaBancaria {
         if (saldo-dinheiro <= 0){
             System.out.println("Saldo indisponível para saque");
         } else {
+            System.out.print("Saque Concluído, saldo atual: ");
             System.out.println(saldo-dinheiro);
         }
     }
