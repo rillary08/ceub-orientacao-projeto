@@ -4,7 +4,6 @@ public class Carro {
     //Atributos
     String chassi;
     String motor;
-    String marca;
     String modelo;
     Integer ano;
     Integer qtdPortas;
@@ -31,7 +30,6 @@ public class Carro {
     }
 
     public void exibirDados(){
-        System.out.println("Marca: " + marca);
         System.out.println("Ano: " + ano);
         System.out.println("Chassi: " + chassi);
         System.out.println("Motor: " + motor);

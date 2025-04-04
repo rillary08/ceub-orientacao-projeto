@@ -1,3 +1,5 @@
+package Aula;
+
 public class EstruturaFluxo {
 
      public static void main(String[] args) {
