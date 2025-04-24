@@ -1,5 +1,6 @@
 package pokemon;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Pokemon {
@@ -9,7 +10,7 @@ public class Pokemon {
    private int ataque;
    private int defesa;
    private int especial;
-   private List<Luta> lutas; //falta colocar no diagrama UML
+   private List<Luta> lutas = new ArrayList<>(); //falta colocar no diagrama UML
 
 
    public Pokemon(String nome, int nivel) {
@@ -31,7 +32,7 @@ public class Pokemon {
    public void apresentarLutas() {
         System.out.println("Histórico de lutas do Pokémon " + nome + ":");
         for(Luta luta : lutas) {
-            System.out.println("Contra ");
+            System.out.println("Contra " + luta.getOponente(this).getNome() + " - Resultado: " + luta.getResultado(this));
         }
    }
 
