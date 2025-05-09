@@ -32,40 +32,40 @@ Logo após os métodos Getters e Setters, justamente por estarmos privando todas
 - Getters:
 
 
-    public String getDono() {
-        return dono;
-    }
-    public String getCpf() {
-        return cpf;
-    }
-    public String getPlaca() {
-        return placa;
-    }
-    public String getMarca() {
-        return marca;
-    }
-    public String getModelo() {
-        return modelo;
-    }
+        public String getDono() {
+            return dono;
+          }
+        public String getCpf() {
+            return cpf;
+        }
+        public String getPlaca() {
+            return placa;
+        }
+        public String getMarca() {
+            return marca;
+        }
+        public String getModelo() {
+            return modelo;
+        }
 
 - Setters:
 
 
-    public void setDono(String dono) {
-        this.dono = dono;
-    }
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
+        public void setDono(String dono) {
+            this.dono = dono;
+        }
+        public void setCpf(String cpf) {
+            this.cpf = cpf;
+        }
+        public void setPlaca(String placa) {
+            this.placa = placa;
+        }
+        public void setMarca(String marca) {
+            this.marca = marca;
+        }
+        public void setModelo(String modelo) {
+            this.modelo = modelo;
+        }
 
 Abaixo teremos os métodos genéricos que serão reescritos pelas subclasses:
 
