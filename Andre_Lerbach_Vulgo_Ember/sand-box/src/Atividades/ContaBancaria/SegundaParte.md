@@ -1,7 +1,7 @@
 # CLASSE PRINCIPAL
 
 ## Início
-Como o nosso professor não explicou isso (até o momento desse arquivo...), para você conseguir diferenciar uma classe objeto de uma classe principal (normalmente no começo, existem casos e casos), sempre procure pela linha de código:
+Para você conseguir diferenciar uma classe objeto de uma classe principal (normalmente no começo, existem casos e casos), sempre procure pela linha de código:
 
 
     public static void main(String[] args){}

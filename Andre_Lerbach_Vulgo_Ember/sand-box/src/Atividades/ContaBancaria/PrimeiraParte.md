@@ -154,8 +154,6 @@ Caso contrário, será feito a redução do valor (sim, você pode retornar oper
 ### Explicação:
 Se você conseguiu entender os métodos anteriores, você já deve saber o que esse faz;
 
-Falando especificamente do que o professor não explicou para a turma...
-
 #### O comando:
 
     System.out.prinln()

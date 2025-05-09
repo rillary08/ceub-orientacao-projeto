@@ -25,6 +25,10 @@ Espero ajudar a todos da turma, bons estudos!
 
 > Em caso de Dúvidas:
 
-Favor enfiar as dúvidas para o email: andre.lerbach@sempreceub.com. Fale acerca da sua dúvida e, caso possível, tire uma print mostrando em qual parte está com dúvidas.
+Favor me contatar pelo ZaperZaper Fale acerca da sua dúvida e, caso possível, tire uma print mostrando em qual parte está com dúvidas.
 
-Prefiro que me abordem pelo zap, no grupo da faculdade, eu sou "Ember Misaka", caso também possuam contato comigo pelo discord, irei atendê-los também.
+Prefiro que me abordem pelo zap. No grupo da faculdade, eu sou "Ember Misaka", caso também possuam contato comigo pelo discord, irei atendê-los também.
+
+> Nota para o Professor:
+
+Acredito que você foi um dos poucos professores com um conhecimento profundo e abrangente acerta do paradigma da POO, sou grato pela oportunidade de participar das suas aulas.
