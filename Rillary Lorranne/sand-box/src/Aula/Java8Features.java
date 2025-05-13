@@ -12,7 +12,7 @@ public class Java8Features {
       List<Integer> idades = Arrays.asList(1,2,3);
       
       List<String> idadesString = idades.stream()
-      .map(idade -> "idade :" = idade )
+      .map (idade -> "idade :" = idade)
       .collect(Collectors.toList());
       
 
