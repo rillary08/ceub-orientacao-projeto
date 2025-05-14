@@ -1,4 +1,4 @@
-package Exemplos.Game.src;
+package Exemplos.CompAgreg.src;
 
 import java.util.Random;
 

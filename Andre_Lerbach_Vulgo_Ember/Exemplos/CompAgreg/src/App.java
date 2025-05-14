@@ -1,4 +1,4 @@
-package Exemplos.Game.src;
+package Exemplos.CompAgreg.src;
 
 public class App {
     public static void main(String[] args) throws Exception {
