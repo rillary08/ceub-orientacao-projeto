@@ -1,3 +1,5 @@
+package Atividades;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -5,18 +7,21 @@ import java.util.Scanner;
 public class AtividadeAula {
 
     public static void main(String[] args) {
-        /*
         // somaDoisNumeros();
         // reordenarLista();
-        System.out.println(verificaPalindromo("civic"));
+        // System.out.println(verificaPalindromo("civic"));
+        checkPalindromo();
     }
 
     // Vitoria
     // 1. Crie um programa que receba dois números inteiros e imprima a soma deles.
     private static void somaDoisNumeros() {
-        Integer numero1 = 1;
-        Integer numero2 = 3;
-        System.out.println(numero1 + numero2);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o primeiro número :");
+        int num1 = scanner.nextInt();
+        System.out.println("Digite o segundo número :");
+        int num2 = scanner.nextInt();
+        System.out.println("A soma é " + (num1 + num2));
     }
 
     // Edilson
@@ -50,28 +55,20 @@ public class AtividadeAula {
     private static boolean verificaPalindromo(String palavra) {
         String invertida = new StringBuilder(palavra).reverse().toString();
         return palavra.equalsIgnoreCase(invertida);
-    } */
     }
-    private static void somarNumeros() {
 
-        Scanner leitor = new Scanner(System.in);
+    private static void checkPalindromo() {
+        Scanner scanner = new Scanner(System.in);
 
-        Integer numero1 = 0;
-        Integer numero2 = 0;
-        Integer soma = 0;
+        System.out.print("Digite uma palavra: "); // solicita ao usuário que insira uma palavra
+        String palavra = scanner.nextLine();
 
-        System.out.println("Digite o primeiro número: ");
-        numero1 = leitor.nextInt();
+        if (verificaPalindromo(palavra)) { // verifica se a palavra é um palíndromo e imprime a mensagem correspondente
+            System.out.println("É palíndromo");
+        } else {
+            System.out.println("Não é palíndromo");
+        }
 
-        System.out.println("Digite o primeiro número: ");
-        numero2 = leitor.nextInt();
-
-        leitor.close();
-
-        soma = numero1 + numero2;
-
-        System.out.println(soma);
-
-    
+        scanner.close(); // fecha o scanner
     }
 }
