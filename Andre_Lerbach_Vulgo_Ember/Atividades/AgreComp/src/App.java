@@ -18,23 +18,11 @@ public class App {
 
         // Tentativa de tiros:
         jogador1.tentarAtirar(colt);
-        System.out.println("--------------------------------");
-        System.out.println(colt);
-        System.out.println("--------------------------------");
 
         jogador2.tentarAtirar(colt);
-        System.out.println("--------------------------------");
-        System.out.println(colt);
-        System.out.println("--------------------------------");
 
         jogador1.tentarAtirar(colt);
-        System.out.println("--------------------------------");
-        System.out.println(colt);
-        System.out.println("--------------------------------");
 
         jogador2.tentarAtirar(colt);
-        System.out.println("--------------------------------");
-        System.out.println(colt);
-        System.out.println("--------------------------------");
     }
 }
