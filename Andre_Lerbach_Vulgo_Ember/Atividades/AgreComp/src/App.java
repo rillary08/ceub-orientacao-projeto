@@ -5,8 +5,6 @@ public class App {
         Jogador jogador1 = new Jogador("Ember");
         Jogador jogador2 = new Jogador("Fernando");
 
-
-
         // Criando o revolver e carregando com munição viva e munições vazias.
         Revolver colt = new Revolver(3);
         colt.carregar(new Cartucho(true));
