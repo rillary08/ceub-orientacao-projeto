@@ -15,6 +15,8 @@ public class App {
 
 
        fiscalizar(porsche);
+       fiscalizar(moto);
+       fiscalizar(punto);
     }
 
     
