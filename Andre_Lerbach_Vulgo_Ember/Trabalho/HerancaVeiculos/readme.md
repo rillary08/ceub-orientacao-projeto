@@ -6,6 +6,7 @@
 > - André de Alencar;
 > - Edilson Nogueira;
 > - Bruno Alves;
+> - Lucas Santos
 
 ### Super Classe Veiculo.
 
