@@ -8,7 +8,7 @@ public class App {
 
 
         // Criando o revolver e carregando com munição viva e munições vazias.
-        Revolver colt = new Revolver(3);
+        Revolver colt = new Revolver(8);
         colt.carregar(new Cartucho(true));
         colt.carregar(new Cartucho(true));
         colt.carregar(new Cartucho(false));
