@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4dca591-0486-4668-ba3e-5cf2c2b3bc6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Exemplos/Polymorphism/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exemplos/Polymorphism/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exemplos/Polymorphism/src/Cast/ExemploCast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exemplos/Polymorphism/src/ExemploDispositivo/Sobreposicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Exemplos/Polymorphism/src/GenericoPolymorphism/ExemploGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/controller/IIMCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/controller/IMCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/model/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/model/RegistroIMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/model/contract/ICalculoIMC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/model/contract/IPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ProjetoFinal/CalculadoraIMC/src/view/JanelaPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Atividades/AgreComp/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Atividades/AgreComp/src/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Trabalho/HerancaVeiculos/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Trabalho/HerancaVeiculos/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Ember/OneDrive/Documentos/codes/CEUB/ceub-orientacao-projeto/Andre_Lerbach_Vulgo_Ember/sand-box/src/Trabalho/HerancaVeiculos/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "onboarding.tips.debug.path": "C:/Users/Ember/OneDrive/Documentos/codes/CEUB/ceub-orientacao-projeto/Andre_Lerbach_Vulgo_Ember/sand-box/src/Trabalho/HerancaVeiculos/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a4dca591-0486-4668-ba3e-5cf2c2b3bc6a" name="Changes" comment="" />
