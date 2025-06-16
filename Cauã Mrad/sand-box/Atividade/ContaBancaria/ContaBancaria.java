@@ -1,3 +1,13 @@
+<<<<<<< HEAD:Cauã Mrad/sand-box/Atividade/ContaBancaria/ContaBancaria.java
+=======
+
+
+
+import java.util.function.DoubleUnaryOperator;
+
+//Declarando a conta bancaria
+
+>>>>>>> 78dd5bbdb8cd34e3d595cbc60381a65bcca79c63:Cauã Mrad/sand-box/Atividade/ContaBancaria.java
 public class ContaBancaria {
     Double valor;
     Double saldo;
@@ -34,5 +44,10 @@ public void infoConta(){
 }
     
 
+
+public void deposito(int i, int j) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'deposito'");
+}
 
 }

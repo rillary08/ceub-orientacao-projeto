@@ -1,16 +1,18 @@
-package Atividade;
+
 
 
 
 public class Caixabanco {
 
-    public static void main (string[] args){
+    public static void main(String[] args) {
+        
+    
         
         //declarando as avariáveis da classe
-       ContaBancaria cauã = new ContaBancaria("cauã",1500.0, 400,0, "conta corrente");
+       ContaBancaria cauã = new ContaBancaria("cauã", 1500.0, 400.0, "conta corrente");
 
        //Método de informação
-       cauã.infoconta();
+       cauã.infoConta();
 
        //Método de deposito
        cauã.deposito(400,0);
