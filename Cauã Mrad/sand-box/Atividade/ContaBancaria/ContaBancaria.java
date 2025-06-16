@@ -1,10 +1,3 @@
-package Atividade;
-
-
-import java.util.function.DoubleUnaryOperator;
-
-//Declarando a conta bancaria
-
 public class ContaBancaria {
     Double valor;
     Double saldo;
@@ -36,9 +29,10 @@ public void sacar(Double valor){
         //Método para mostrar informações da conta
 public void infoConta(){
     System.out.println("\nNome: " + nome +
-                        "\nSaldo: " + saldo +
-                        "\nConta: " + conta);
-}
-
+                             "\nSaldo: " + saldo +
+                            "\nConta: " + conta);
 }
     
+
+
+}
