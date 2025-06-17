@@ -13,14 +13,22 @@ public class RegistroIMC extends Pessoa implements ICalculoIMC{
 
     @Override
     public double calcularIMC() {
-        // voce deve escrever o metodo calcular IMC
-        return 0.0;
+        Double calculoIMC = getPeso()/ Math.pow (getAltura(), 2);
+        return calculoIMC;
     }
 
     @Override
     public String classificarIMC() {
-        // voce deve escrever o metodo classificarIMC e retornar como esta a pessoa
-        return "Obeso";
+        Double calculoIMC = calcularIMC();
+        if (calculoIMC < 18.5) {
+            return "Abaixo do peso";
+        } else if (calculoIMC > 18.5 && calculoIMC < 24.99) {
+            return "Eutrófico";
+        } else if (calculoIMC > 25.00 && calculoIMC <= 29.99) {
+            return "Sobrepeso";
+        } else {
+            return "Obesidade";
+        }
     }
 
 }
