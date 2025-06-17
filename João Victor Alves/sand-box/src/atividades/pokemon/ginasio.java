@@ -1,4 +1,4 @@
-package atividades.pokemon;
+package Atividades.pokemon;
 
 import java.util.List;
 import java.util.ArrayList;

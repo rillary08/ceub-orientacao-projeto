@@ -1,35 +1,39 @@
-package poo;
+package POO;
 
 public class Carro {
-    //atributos
+    //Atributos
     String chassi;
     String motor;
-    String marca;
     String modelo;
-    Integer portas;
     Integer ano;
+    Integer qtdPortas;
 
     //Construtor
     public Carro(String chassi, String motor, Integer ano){
         this.chassi = chassi;
         this.motor = motor;
         this.ano = ano;
-        this.portas = 2;
-    }
-    //metodo
-    public void ligarcarro(){
-        System.out.println("ligando");
+        this.qtdPortas = 2;
     }
 
-    public void acelerar(){
-        System.out.println("acelerendo");
+    //Metodos
+    public void LigarCarro(){
+        System.out.println("Ligando Carro!");
     }
 
-    public void freiar(){
-        System.out.println("freiando");
+    public void acelerar() {
+        System.out.println("Acelerando!");
     }
 
-    public void exibirdados(){
-        System.out.println("Exibindo");
+    public void freiar() {
+        System.out.println("Freiando!");
+    }
+
+    public void exibirDados(){
+        System.out.println("Ano: " + ano);
+        System.out.println("Chassi: " + chassi);
+        System.out.println("Motor: " + motor);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Qtd Portas: " + qtdPortas);
     }
 }

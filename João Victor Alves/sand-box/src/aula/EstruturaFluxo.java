@@ -1,30 +1,37 @@
+package Aula;
+
 public class EstruturaFluxo {
-    public static void main(String[] args) {
-        int idade = 18;
 
-        // if-else
-        if (idade >= 18) {
-            System.out.println("Você é de maior!");
-        } else {
-            System.out.println("Sou de menor!");
-        }
+     public static void main(String[] args) {
+     int idade = 13;
 
-        // operador ternário (codição) ? operação caso true : operação caso false;
-        String status = (idade >= 18) ? "Maior de idade" : "Sou de menor";
-        System.out.println(status);
+     //if else
 
-        int dia = 1;
-        switch (dia) {
-            case 1:
-                System.out.println("Primeiro Dia");
-                break;
-            case 2:
-                System.out.println("Segundo Dia");
-                break;
-            default:
-                System.out.println("Dia não encontrado");
-                break;
-        }
+     if(idade >= 18){
+        System.out.println("você é de maior");
+        
+     } else {
+         System.out.println("você é menor de idade");
+     }
 
+     // operador ternário (condiçao) ? operação caso true : operação caso false
+
+     String status = (idade >= 18) ? "maior de idade" : "menor de idade";
+     System.out.println(status);
+
+     // switch
+
+     int dia = 2;
+     switch (dia) {
+         case 1:
+            System.out.println("primeiro dia");
+            break;
+         case 2:
+            System.out.println("segundo dia");
+            break;
+         default:
+            System.out.println("dia não encontrado");
+            break;
+         }
     }
 }

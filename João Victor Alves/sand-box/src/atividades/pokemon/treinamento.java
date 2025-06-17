@@ -1,4 +1,4 @@
-package atividades.pokemon;
+package Atividades.pokemon;
 
 public class Treinamento {
     private String descricao;
