@@ -1,11 +1,9 @@
-import model.Pessoa;
-import model.RegistroIMC;
+import javax.swing.SwingUtilities;
+import view.JanelaPrincipal;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        RegistroIMC andre = new RegistroIMC("Ember", 70.0, 1.75);
-
-        andre.calcularIMC();
-        andre.classificarIMC();
+        // Instancia JanelaPrincipal na EDT (Event-Dispatch Thread) do Swing
+        SwingUtilities.invokeLater(JanelaPrincipal::new);
     }
 }

@@ -2,21 +2,26 @@ package controller;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import model.RegistroIMC;
+import model.contract.IIMCController;
 
 public class IMCController implements IIMCController {
 
     private List<RegistroIMC> historico = new ArrayList<>();
 
     @Override
-    public void adicionarRegistro(String nome, Double peso, Double altura) {
-        // Fazer o registro
+    public void adicionarRegistro(String nome, double peso, double altura) {
+        // cria o registro e adiciona ao histórico
+        RegistroIMC registro = new RegistroIMC(nome, peso, altura);
+        historico.add(registro);
     }
 
     @Override
     public List<RegistroIMC> getHistorico() {
-        // Fazer a consulta
-        return null;
+        return historico;
     }
+
+    
 
 }

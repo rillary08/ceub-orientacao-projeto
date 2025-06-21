@@ -3,20 +3,20 @@ package model;
 import model.contract.ICalculoIMC;
 
 public class RegistroIMC extends Pessoa implements ICalculoIMC{
-
     private double imc;
     private String classificacao;
 
     public RegistroIMC(String nome, Double peso, Double altura) {
-        super(nome, peso, altura);
-    }
+    super(nome, peso, altura);
+    this.imc = calcularIMC();
+    this.classificacao = classificarIMC();
+}
 
     @Override
     public Double calcularIMC() {
-        imc = getPeso()/(getAltura()+getAltura());
+        imc = getPeso() / (getAltura() * getAltura());
         return imc;
     }
-
     @Override
     public String classificarIMC() {
         if (imc < 18.5) {
@@ -37,5 +37,25 @@ public class RegistroIMC extends Pessoa implements ICalculoIMC{
 
         return classificacao;
     }
+    @Override
+    public String toString() {
+        return "\n Nome: "+getNome()+
+                "\n Altura: "+getAltura()+
+                "\n Peso: "+getPeso()+
+                "\n Seu IMC é: "+getImc()+
+                "\n classificação: "+getClassificacao();
+    }
 
+    public double getImc() {
+        return imc;
+    }
+    public String getClassificacao() {
+        return classificacao;
+    }
+    public void setClassificacao(String classificacao) {
+        this.classificacao = classificacao;
+    }
+    public void setImc(double imc) {
+        this.imc = imc;
+    }
 }
