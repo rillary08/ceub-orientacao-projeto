@@ -1,18 +1,16 @@
-## Getting Started
+## Para o Professor:
+- Caso você veja este readme em outros repositórios:
+  - O trabalho foi copiado de outra pessoa sem o consentimento dela (e você sabe de quem, possivelmente)
+  - Eu não gostaria que os alunos copiassem o código, justamente por ser individual.
+- Caso você suspeite que o código é semelhante a outros projetos:
+  - Existe sim a possibilidade dos alunos terem copiado o projeto ou partes dele.
+  - Eu não ligo, mas provavelmente o senhor vai levar isso em consideração.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Meu Depoimento:
+Não sou chegado em cópias de atividades avaliativas, mas não posso controlar as intensões da turma, tal como não gosto de carregar ninguém. Esse semestre me ensinou a olhar somente para mim em ambientes de competitividade, mas também de ajudar as pessoas no nível correto de ajuda.
 
-## Folder Structure
+Sem dúvidas, uma das maiores adversidades opcionais que passei envolve ajudar as outras pessoas. E, nisso, acabei me distanciando do meu objetivo, coisa que não vai se repetir a partir do semestre que vem. Existe uma diferença entre ajudar e garantir um semestre para outras pessoas.
 
-The workspace contains two folders by default, where:
+Outro contra-tempo foi o uso incorreto de I.A para aprendizado, na verdade, assumo que utilizei I.A para algumas coisas e nem se quer tentei entender o que estava sendo escrito, embora a ferramenta seja muito importante e possua um potencial enorme para ensinar.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Dito isso, irei melhorar como aluno e superar minhas dificuldades observadas nesse semestre.
