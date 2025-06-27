@@ -1,0 +1,134 @@
+Para implementar a classe Produto com os conceitos de encapsulamento, com base no seu enunciado, vamos definir a classe com os atributos privados e métodos solicitados. Também vou seguir a ideia de encapsulamento com o uso de métodos get e set para acessar e modificar os atributos privados.
+
+Aqui está a implementação da classe Produto em Java (mas o conceito pode ser facilmente adaptado para outras linguagens orientadas a objetos):
+
+java
+Copiar
+public class Produto {
+    // Atributos privados
+    private String nome;
+    private double preco;
+    private int quantidade;
+
+    // Construtor
+    public Produto(String nome, double preco, int quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    // Métodos get e set
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    // Método para comprar (aumentar a quantidade)
+    public void comprar(int quantidade) {
+        if (quantidade > 0) {
+            this.quantidade += quantidade;
+            System.out.println("Compra realizada com sucesso. Estoque atual: " + this.quantidade);
+        } else {
+            System.out.println("Quantidade inválida para compra.");
+        }
+    }
+
+    // Método para vender (reduzir a quantidade)
+    public void vender(int quantidade) {
+        if (quantidade > 0 && this.quantidade >= quantidade) {
+            this.quantidade -= quantidade;
+            System.out.println("Venda realizada com sucesso. Estoque atual: " + this.quantidade);
+        } else if (quantidade > 0) {
+            System.out.println("Estoque insuficiente para a venda.");
+        } else {
+            System.out.println("Quantidade inválida para venda.");
+        }
+    }
+
+    // Método para exibir informações do produto
+    public void exibirInformacoes() {
+        System.out.println("Produto: " + nome);
+        System.out.println("Preço: R$ " + preco);
+        System.out.println("Quantidade em estoque: " + quantidade);
+    }
+}
+Explicação:
+Atributos Privados:
+
+nome: Nome do produto.
+
+preco: Preço do produto.
+
+quantidade: Quantidade em estoque.
+
+Métodos get e set:
+
+São utilizados para acessar e modificar os atributos privados. Cada atributo tem seu próprio método get (para leitura) e set (para alteração).
+
+Método comprar(int quantidade):
+
+Aumenta a quantidade do produto em estoque. Antes de aumentar, verifica se a quantidade fornecida é válida (maior que zero).
+
+Método vender(int quantidade):
+
+Reduz a quantidade do produto em estoque, caso haja estoque suficiente para a venda. Verifica se a quantidade fornecida é válida (maior que zero) e se há estoque suficiente.
+
+Método exibirInformacoes():
+
+Exibe as informações do produto, como nome, preço e quantidade.
+
+Exemplo de uso:
+java
+Copiar
+public class Main {
+    public static void main(String[] args) {
+        // Criando um produto
+        Produto produto = new Produto("Camiseta", 50.0, 100);
+        
+        // Exibindo informações do produto
+        produto.exibirInformacoes();
+        
+        // Comprando mais unidades
+        produto.comprar(50);
+        
+        // Vendendo unidades
+        produto.vender(30);
+        
+        // Exibindo novamente as informações após as operações
+        produto.exibirInformacoes();
+    }
+}
+Resultado esperado:
+yaml
+Copiar
+Produto: Camiseta
+Preço: R$ 50.0
+Quantidade em estoque: 100
+Compra realizada com sucesso. Estoque atual: 150
+Venda realizada com sucesso. Estoque atual: 120
+Produto: Camiseta
+Preço: R$ 50.0
+Quantidade em estoque: 120
+Esse código segue o conceito de encapsulamento com a proteção dos atributos privados e a interação com eles apenas por meio dos métodos públicos.
+
+
+
